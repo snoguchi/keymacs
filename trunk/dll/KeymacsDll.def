@@ -1,0 +1,16 @@
+LIBRARY     KEYMACS
+
+DESCRIPTION 'KEYMACS DLL'
+
+VERSION     0.1
+
+SECTIONS
+    .sharedata READ WRITE SHARED
+
+EXPORTS
+	SetKeyMap
+	SetIgnoreApp
+	KeyHookSet
+	KeyHookRelease
+	IsKeyHooked
+	KeyboardProc
